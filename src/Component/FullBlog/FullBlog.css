@@ -629,7 +629,7 @@ button {
     text-align: center;
     align-items: flex-start;
     cursor: default;
-    background-color:-internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    background-color:-internal-light-dark(rgb(239, 239, 239));
     box-sizing: border-box;
     margin: 0em;
     font: 400 13.3333px Arial;
@@ -695,4 +695,89 @@ border: 0;
 text-decoration: none;
 vertical-align: baseline;
 font-family: 'Work Sans';
+}
+.blog_inner_wrapper.blog_image_wrapper img {
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+    max-width: max-content;
+}
+.blog_img_col img {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+.blog_img_col img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+img {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+}
+.blog_title_bar h1.banners-headding {
+    font-size: 45px;
+    padding-bottom: 0;
+}
+.blog_title_bar h1.banners-headding {
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+.dark_text h1.banners-headding {
+    color: #151b3f;
+}
+@media (max-width: 1499px) and (min-width: 1299px)
+{h1.banners-headding {
+    font-size: 65px;
+}}
+@media (max-width: 1366px)
+{h1.banners-headding {
+    font-size: 70px;
+}}
+h1.banners-headding {
+    font-size: 80px;
+    color: #fff;
+}
+h1 {
+    font-size: 45px;
+    margin-bottom: 30px;
+    font-weight: 300;
+    color: #080909;
+}
+h1, p, a, body, h2, h3, h4, h5, h6, span, li, table, label, input {
+    font-family: 'Roboto', sans-serif !important;
+}
+.h1, h1 {
+    font-size: 2.5rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'ProximaNovabold';
+    color: #151b3f;
+}
+.blog_img_col {
+    padding: 20px;
+    -webkit-box-shadow: 0 0 20px 0 rgba(9, 86, 244, .12);
+    box-shadow: 0 0 20px 0 rgba(9, 86, 244, .12);
+}
+.blog_img_col {
+    box-shadow: 0 0 42px 0 rgba(9, 86, 244, .29);
+    background-color: #fff;
 }

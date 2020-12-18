@@ -150,12 +150,22 @@ catagoriesFilter=(e)=>{
         return (
             <div className="container"> 
                 <h2 className="text-monospace text-center my-5" > Read about latest trends and updates about new technologies and tools </h2>
+                <div class="col-md-6 blog_filter_col">
+                           <div class="form-group">
+                              <div class="select_container">
+                                 
+                                    
                 <select onChange={(e)=>this.catagoriesFilter(e)}>
                 <option value='All Catagories' selected>All Catagories</option>
                         {this.state.catagories && this.state.catagories.map(catagory=> <option value={catagory.id}>{catagory.name} </option>)}
                     </select>
-                {this.state.latest && <div className="row mx-2 my-5"> 
                     
+                    </div>
+                    </div>
+                    </div>
+                    
+                {this.state.latest && <div className="row mx-2 my-5"> 
+                 
                    <div className="col-md-5">
                        <h4 className="font-weight-bold">{this.state.latest.title.rendered}</h4>
                        <div className="date_time"><img src="https://staging.elsner.com/wp-content/uploads/2020/07/calendar.png"/>{moment(this.state.latest.date.substring(0,10)).format("MMMM DD, YYYY")}</div>

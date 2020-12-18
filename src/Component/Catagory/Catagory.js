@@ -2,7 +2,9 @@ import React from "react";
 import axios from "axios"
 import Post from "../Post/Post"
 import { Spin } from 'antd';
-
+import "../Blog/Blog.css"
+import "../FullBlog/FullBlog.css"
+import "../Catagory/Catagory.css"
 class Catagory extends React.Component{
     state={
         list:[],
@@ -26,8 +28,8 @@ class Catagory extends React.Component{
             })
         }
         return(
-            this.state.list.length !== 0 ? <div className="row">
-                    {this.state.list.map(post => <div className="col-md-4" key={post?.id}> <Post title={post?.title?.rendered} date={post?.date} image={post?._embedded['wp:featuredmedia']['0']?.source_url} clicked={() => blogSelectedHandler(post.id)} /> </div>)}
+            this.state.list.length !== 0 ? <div className="row container" style={{marginLeft:100}}>
+                    {this.state.list.map(post => <div className="  col-md-4" key={post?.id}> <Post title={post?.title?.rendered} date={post?.date} image={post?._embedded['wp:featuredmedia']['0']?.source_url} clicked={() => blogSelectedHandler(post.id)} /> </div>)}
                     {this.state.showMore && <div className="text-center"><button className="btn btn-primary" onClick={this.loadMore}> View More </button></div>}
                 </div> : <div style={{
                     textAlign: "center",

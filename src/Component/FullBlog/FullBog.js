@@ -50,15 +50,17 @@ class FullBlog extends React.Component{
         return ( 
 
          this.state.singlePost!==null  ? <div className="container">
-             <div className="row">
+            <h1 style={{marginBottom:"25px",marginLeft:"15px"}}>Search Results for: </h1>
+             <div className="blog_inner_wrapper blog_filter_row row">
                  
-                 <div className="col-md-6" >
-                 <h4>Search Result for:</h4>
-                 <form className="form-group" onSubmit={()=> console.log("submit")}>
-                 <input type="text" placeholder="Search Blog" />
-                 <button  type="submit" className="btn btn-primary btn-large">Search</button>
-             </form>
-                 </div>
+             <div className="col-md-6 blog_search_col">
+    <div className="searchform-box search-form-box">
+      <form role="search"  className="search-form" action="https://staging.elsner.com">
+        <input type="search" className="search-field" placeholder="Search blog"  pattern="[A-Za-z]+" required />									
+        <button type="submit" className="search-submit custom-btn-sub more-btn-color">Search </button>
+      </form>
+      </div>
+     </div>
                  <div className="form-group col-md-6">
                      <select>
                          <option value="All Catagories">All Catagories</option>
@@ -70,12 +72,13 @@ class FullBlog extends React.Component{
              </div>
              
 
-
-        <h1 className="text-center mt-5"> {this.state.singlePost?.title?.rendered} </h1>
-        {/* <p className="text-center"> -{moment(this.state.singlePost?.date.substring(0,10)).format("MMMM DD, YYYY")}</p> */}
-        <div className="row justify-content-md-center"><div className="col-md-6">
-        <img src={this.state.singlePost._embedded['wp:featuredmedia']['0'].source_url} />
-            </div></div>
+             <h6 class="line-headding">Our Blog</h6>
+             <h1 className="bannners-headding"> {this.state.singlePost?.title?.rendered} </h1>
+       <div className=" row justify-content-md-center">
+       <p className="text-center" style={{margin:10}}> -{moment(this.state.singlePost?.date.substring(0,10)).format("MMMM DD, YYYY")}</p>
+       
+        <img  src={this.state.singlePost._embedded['wp:featuredmedia']['0'].source_url} />
+            </div>
     <div className="container m-5" dangerouslySetInnerHTML={{ __html: this.state.singlePost?.content?.rendered }}></div> 
     </div>
         </div> : <div style={{ textAlign: "center",
