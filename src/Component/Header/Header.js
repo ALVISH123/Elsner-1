@@ -11,7 +11,7 @@ class Header extends Component{
   <div className="custom-class">
     <div className="site_logo">
       <a href="">
-        <img className="original-logo lazyloaded" src="https://www.elsner.com/wp-content/uploads/2020/05/elsner_logo_2020.svg" alt width={159} data-lazy-src="https://www.elsner.com/wp-content/uploads/2020/05/elsner_logo_2020.svg" data-was-processed="true" style={{marginRight:"150px"}}/>
+        <img className="original-logo lazyloaded" src="https://www.elsner.com/wp-content/uploads/2020/05/elsner_logo_2020.svg" alt width={159} data-lazy-src="https://www.elsner.com/wp-content/uploads/2020/05/elsner_logo_2020.svg" data-was-processed="true" style={{marginRight:"100px"}}/>
         {/* <noscript>&lt;img class="original-logo" src="https://www.elsner.com/wp-content/uploads/2020/05/elsner_logo_2020.svg" alt="" width="159" /&gt;</noscript> */}
         {/* <img className="sticky-logo lazyloaded" src="https://www.elsner.com/wp-content/uploads/2020/05/elsner_logo_2020.svg" alt width={159} data-lazy-src="https://www.elsner.com/wp-content/uploads/2020/05/elsner_logo_2020.svg" data-was-processed="true" /> */}
         {/* <noscript>&lt;img class="sticky-logo" src="https://www.elsner.com/wp-content/uploads/2020/05/elsner_logo_2020.svg" alt="" width="159" /&gt;</noscript> */}
