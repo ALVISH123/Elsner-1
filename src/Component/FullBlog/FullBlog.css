@@ -347,12 +347,9 @@ body {
     padding-left: 0;
 }
 .blog_title_bar h6.line-headding {
-    margin-left: 60px;
+    margin-top: 60px;
 }
-.dark_text h6.line-headding {
-    color: #ff055a;
-    padding-bottom: 30px;
-}
+
 h6.line-headding {
     position: relative;
     color: #fff;
@@ -780,4 +777,17 @@ h1, h2, h3, h4, h5, h6 {
 .blog_img_col {
     box-shadow: 0 0 42px 0 rgba(9, 86, 244, .29);
     background-color: #fff;
+}
+.blog_inner_wrapper.blog_title_bar.dark_text {
+    padding: 0;
+}
+.blog_title_bar {
+    padding: 60px 0;
+}
+.blog_inner_wrapper {
+    max-width: 930px;
+    margin: 0 auto;
+}
+.blog_title_bar {
+    position: relative;
 }

@@ -2,9 +2,7 @@ import React from "react";
 import axios from "axios"
 import Post from "../Post/Post"
 import { Spin } from 'antd';
-import "../Blog/Blog.css"
-import "../FullBlog/FullBlog.css"
-import "../Catagory/Catagory.css"
+
 class Catagory extends React.Component{
     state={
         list:[],

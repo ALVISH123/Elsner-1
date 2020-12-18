@@ -7,7 +7,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 // import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import moment from "moment";
-import "../Post/Post.css"
+// import "../Post/Post.css"
 const useStyles = makeStyles({
   root: {
     maxWidth: 345,
@@ -38,7 +38,7 @@ function Post(props) {
         </CardContent>
         <CardContent height="50px" Align="bottom">
         <Typography variant="body2" color="textSecondary" >
-        <img src="https://staging.elsner.com/wp-content/uploads/2020/07/calendar.png" alt=""/>{moment(props?.date.substring(0,10)).format("MMMM DD, YYYY")}
+        <img src="https://staging.elsner.com/wp-content/uploads/2020/07/calendar.png" alt="" style={{marginRight:"10px"}}/>{moment(props?.date.substring(0,10)).format("MMMM DD, YYYY")}
         </Typography>
         </CardContent>
       

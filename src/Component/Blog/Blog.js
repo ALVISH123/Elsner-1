@@ -7,7 +7,7 @@ import { slice, concat } from "lodash"
 // import { Route } from "react-router-dom"
 import { Spin } from 'antd';
 import 'antd/dist/antd.css';
-import "./Blog.css"
+// import "./Blog.css"
 class Blog extends React.Component {
     state = {
         data: [],
@@ -155,7 +155,7 @@ catagoriesFilter=(e)=>{
                               <div class="select_container">
                                  
                                     
-                <select onChange={(e)=>this.catagoriesFilter(e)}>
+                <select className="form-control blog-category-dd" onChange={(e)=>this.catagoriesFilter(e)}>
                 <option value='All Catagories' selected>All Catagories</option>
                         {this.state.catagories && this.state.catagories.map(catagory=> <option value={catagory.id}>{catagory.name} </option>)}
                     </select>
@@ -164,21 +164,21 @@ catagoriesFilter=(e)=>{
                     </div>
                     </div>
                     
-                {this.state.latest && <div className="row mx-2 my-5"> 
+                {this.state.latest && <div className="singl_blog">
+                    <div className="row alinc"> 
                  
                    <div className="col-md-5">
                        <h4 className="font-weight-bold">{this.state.latest.title.rendered}</h4>
-                       <div className="date_time"><img src="https://staging.elsner.com/wp-content/uploads/2020/07/calendar.png"/>{moment(this.state.latest.date.substring(0,10)).format("MMMM DD, YYYY")}</div>
+                       <div className="date_time"><img src="https://staging.elsner.com/wp-content/uploads/2020/07/calendar.png" style={{marginRight:"10px"}}/>{moment(this.state.latest.date.substring(0,10)).format("MMMM DD, YYYY")}</div>
                        <div className="multi-line-truncate" dangerouslySetInnerHTML={{ __html: this.state.latest?.content?.rendered }}></div> 
                        <div className="my-4"> <a className="text-prmary text-underline " onClick={()=> blogSelectedHandler(this.state.latest.id)}> READ MORE </a> </div>
                     
                    </div>
-                    {/* <div className="col-md-1"></div> */}
-                   <div className="col-md-6">
-                       <img src={this.state.latest._embedded['wp:featuredmedia']['0'].source_url}  />
+                    <div className="col-md-7">
+                       <div className="blogimg_right"><img src={this.state.latest._embedded['wp:featuredmedia']['0'].source_url}  /> </div>
                    </div>
 
-
+                   </div>
              </div>}
                 {this.state.list.length !== 0 ? <div className="row">
                     {this.state.list.map(post => <div className="col-md-4" key={post?.id}> <Post title={post?.title?.rendered} date={post?.date} image={post?._embedded['wp:featuredmedia']['0']?.source_url} clicked={() => blogSelectedHandler(post.id)} /> </div>)}

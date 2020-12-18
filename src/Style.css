@@ -178,7 +178,7 @@ span.wpcf7-list-item-label::after {
 div.wpcf7 .ajax-loader {
 	visibility: hidden;
 	display: inline-block;
-	background-image: url(../../../plugins/contact-form-7/images/ajax-loader.gif);
+	/* background-image: url(../../../plugins/contact-form-7/images/ajax-loader.gif); */
 	width: 16px;
 	height: 16px;
 	border: none;
@@ -5872,63 +5872,63 @@ div.wpcf7 .wpcf7-submit:disabled {
 
 @font-face {
 	font-family: 'ProximaNovaBoldIta';
-	src: url('../../../themes/elsner2019/fonts/proxima-nova-bold-italic-webfont.eot?#iefix') format('embedded-opentype'), url(../../../themes/elsner2019/fonts/proxima-nova-bold-italic-webfont.woff) format('woff'), url(../../../themes/elsner2019/fonts/proxima-nova-bold-italic-webfont.ttf) format('truetype'), url('../../../themes/elsner2019/fonts/proxima-nova-bold-italic-webfont.svg#ProximaNovaLight') format('svg');
+	/* src: url('../../../themes/elsner2019/fonts/proxima-nova-bold-italic-webfont.eot?#iefix') format('embedded-opentype'), url(../../../themes/elsner2019/fonts/proxima-nova-bold-italic-webfont.woff) format('woff'), url(../../../themes/elsner2019/fonts/proxima-nova-bold-italic-webfont.ttf) format('truetype'), url('../../../themes/elsner2019/fonts/proxima-nova-bold-italic-webfont.svg#ProximaNovaLight') format('svg'); */
 	font-weight: 400;
 	font-style: normal
 }
 
 @font-face {
 	font-family: 'ProximaNovaBold';
-	src: url('../../../themes/elsner2019/fonts/proxima-nova-bold-webfont.eot?#iefix') format('embedded-opentype'), url(../../../themes/elsner2019/fonts/proxima-nova-bold-webfont.woff) format('woff'), url(../../../themes/elsner2019/fonts/proxima-nova-bold-webfont.ttf) format('truetype'), url('../../../themes/elsner2019/fonts/proxima-nova-bold-webfont.svg#ProximaNovaLight') format('svg');
+	/* src: url('../../../themes/elsner2019/fonts/proxima-nova-bold-webfont.eot?#iefix') format('embedded-opentype'), url(../../../themes/elsner2019/fonts/proxima-nova-bold-webfont.woff) format('woff'), url(../../../themes/elsner2019/fonts/proxima-nova-bold-webfont.ttf) format('truetype'), url('../../../themes/elsner2019/fonts/proxima-nova-bold-webfont.svg#ProximaNovaLight') format('svg'); */
 	font-weight: 400;
 	font-style: normal
 }
 
 @font-face {
 	font-family: 'ProximaNovaLightIta';
-	src: url('../../../themes/elsner2019/fonts/proxima-nova-light-italic-webfont.eot?#iefix') format('embedded-opentype'), url(../../../themes/elsner2019/fonts/proxima-nova-light-italic-webfont.woff) format('woff'), url(../../../themes/elsner2019/fonts/proxima-nova-light-italic-webfont.ttf) format('truetype'), url('../../../themes/elsner2019/fonts/proxima-nova-light-italic-webfont.svg#ProximaNovaLight') format('svg');
+	/* src: url('../../../themes/elsner2019/fonts/proxima-nova-light-italic-webfont.eot?#iefix') format('embedded-opentype'), url(../../../themes/elsner2019/fonts/proxima-nova-light-italic-webfont.woff) format('woff'), url(../../../themes/elsner2019/fonts/proxima-nova-light-italic-webfont.ttf) format('truetype'), url('../../../themes/elsner2019/fonts/proxima-nova-light-italic-webfont.svg#ProximaNovaLight') format('svg'); */
 	font-weight: 400;
 	font-style: normal
 }
 
 @font-face {
 	font-family: 'ProximaNovaLight';
-	src: url('../../../themes/elsner2019/fonts/proxima-nova-light-webfont.eot?#iefix') format('embedded-opentype'), url(../../../themes/elsner2019/fonts/proxima-nova-light-webfont.woff) format('woff'), url(../../../themes/elsner2019/fonts/proxima-nova-light-webfont.ttf) format('truetype'), url('../../../themes/elsner2019/fonts/proxima-nova-light-webfont.svg#ProximaNovaLight') format('svg');
+	/* src: url('../../../themes/elsner2019/fonts/proxima-nova-light-webfont.eot?#iefix') format('embedded-opentype'), url(../../../themes/elsner2019/fonts/proxima-nova-light-webfont.woff) format('woff'), url(../../../themes/elsner2019/fonts/proxima-nova-light-webfont.ttf) format('truetype'), url('../../../themes/elsner2019/fonts/proxima-nova-light-webfont.svg#ProximaNovaLight') format('svg'); */
 	font-weight: 400;
 	font-style: normal
 }
 
 @font-face {
 	font-family: 'ProximaNovaRegularIta';
-	src: url('../../../themes/elsner2019/fonts/proxima-nova-regular-italic-webfont.eot?#iefix') format('embedded-opentype'), url(../../../themes/elsner2019/fonts/proxima-nova-regular-italic-webfont.woff) format('woff'), url(../../../themes/elsner2019/fonts/proxima-nova-regular-italic-webfont.ttf) format('truetype'), url('../../../themes/elsner2019/fonts/proxima-nova-regular-italic-webfont.svg#ProximaNovaLight') format('svg');
+	/* src: url('../../../themes/elsner2019/fonts/proxima-nova-regular-italic-webfont.eot?#iefix') format('embedded-opentype'), url(../../../themes/elsner2019/fonts/proxima-nova-regular-italic-webfont.woff) format('woff'), url(../../../themes/elsner2019/fonts/proxima-nova-regular-italic-webfont.ttf) format('truetype'), url('../../../themes/elsner2019/fonts/proxima-nova-regular-italic-webfont.svg#ProximaNovaLight') format('svg'); */
 	font-weight: 400;
 	font-style: normal
 }
 
 @font-face {
 	font-family: 'ProximaNovaRegular';
-	src: url('../../../themes/elsner2019/fonts/proxima-nova-regular-webfont.eot?#iefix') format('embedded-opentype'), url(../../../themes/elsner2019/fonts/proxima-nova-regular-webfont.woff) format('woff'), url(../../../themes/elsner2019/fonts/proxima-nova-regular-webfont.ttf) format('truetype'), url('../../../themes/elsner2019/fonts/proxima-nova-regular-webfont.svg#ProximaNovaRegular') format('svg');
+	/* src: url('../../../themes/elsner2019/fonts/proxima-nova-regular-webfont.eot?#iefix') format('embedded-opentype'), url(../../../themes/elsner2019/fonts/proxima-nova-regular-webfont.woff) format('woff'), url(../../../themes/elsner2019/fonts/proxima-nova-regular-webfont.ttf) format('truetype'), url('../../../themes/elsner2019/fonts/proxima-nova-regular-webfont.svg#ProximaNovaRegular') format('svg'); */
 	font-weight: 400;
 	font-style: normal
 }
 
 @font-face {
 	font-family: 'ProximaNovaSemiboldIta';
-	src: url('../../../themes/elsner2019/fonts/proxima-nova-semibold-italic-webfont.eot?#iefix') format('embedded-opentype'), url(../../../themes/elsner2019/fonts/proxima-nova-semibold-italic-webfont.woff) format('woff'), url(../../../themes/elsner2019/fonts/proxima-nova-semibold-italic-webfont.ttf) format('truetype'), url('../../../themes/elsner2019/fonts/proxima-nova-semibold-italic-webfont.svg#ProximaNovaLight') format('svg');
+	/* src: url('../../../themes/elsner2019/fonts/proxima-nova-semibold-italic-webfont.eot?#iefix') format('embedded-opentype'), url(../../../themes/elsner2019/fonts/proxima-nova-semibold-italic-webfont.woff) format('woff'), url(../../../themes/elsner2019/fonts/proxima-nova-semibold-italic-webfont.ttf) format('truetype'), url('../../../themes/elsner2019/fonts/proxima-nova-semibold-italic-webfont.svg#ProximaNovaLight') format('svg'); */
 	font-weight: 400;
 	font-style: normal
 }
 
 @font-face {
 	font-family: 'ProximaNovaSemibold';
-	src: url('../../../themes/elsner2019/fonts/proxima-nova-semibold-webfont.eot?#iefix') format('embedded-opentype'), url(../../../themes/elsner2019/fonts/proxima-nova-semibold-webfont.woff) format('woff'), url(../../../themes/elsner2019/fonts/proxima-nova-semibold-webfont.ttf) format('truetype'), url('../../../themes/elsner2019/fonts/proxima-nova-semibold-webfont.svg#ProximaNovaSemibold') format('svg');
+	/* src: url('../../../themes/elsner2019/fonts/proxima-nova-semibold-webfont.eot?#iefix') format('embedded-opentype'), url(../../../themes/elsner2019/fonts/proxima-nova-semibold-webfont.woff) format('woff'), url(../../../themes/elsner2019/fonts/proxima-nova-semibold-webfont.ttf) format('truetype'), url('../../../themes/elsner2019/fonts/proxima-nova-semibold-webfont.svg#ProximaNovaSemibold') format('svg'); */
 	font-weight: 400;
 	font-style: normal
 }
 
 @font-face {
 	font-family: 'ProximaNova-Extrabld';
-	src: url('../../../themes/elsner2019/fonts/ProximaNova-Extrabld.eot?#iefix') format('embedded-opentype'), url(../../../themes/elsner2019/fonts/ProximaNova-Extrabld.woff) format('woff'), url(../../../themes/elsner2019/fonts/ProximaNova-Extrabld.ttf) format('truetype'), url('../../../themes/elsner2019/fonts/ProximaNova-Extrabld.svg#ProximaNova-Extrabld') format('svg');
+	/* src: url('../../../themes/elsner2019/fonts/ProximaNova-Extrabld.eot?#iefix') format('embedded-opentype'), url(../../../themes/elsner2019/fonts/ProximaNova-Extrabld.woff) format('woff'), url(../../../themes/elsner2019/fonts/ProximaNova-Extrabld.ttf) format('truetype'), url('../../../themes/elsner2019/fonts/ProximaNova-Extrabld.svg#ProximaNova-Extrabld') format('svg'); */
 	font-weight: 400;
 	font-style: normal
 }
@@ -6746,7 +6746,7 @@ a.get-qurt-btn:hover {
 	margin: 0;
 	padding: 0;
 	float: left;
-	background: url(../../../themes/elsner2019/images/video-banners.jpg) no-repeat 0 0;
+	/* background: url(../../../themes/elsner2019/images/video-banners.jpg) no-repeat 0 0; */
 	background-size: cover;
 	height: 100vh;
 	width: 100%;
@@ -7366,9 +7366,9 @@ footer#footer {
 	padding-top: 50px
 }
 
-.page-service-banner {
+/* .page-service-banner {
 	background-image: url(../../../themes/elsner2019/images/wp-service-banners.jpg)
-}
+} */
 
 #service-info .color-btn {
 	text-align: right
@@ -7808,9 +7808,9 @@ button:focus {
 	text-align: right
 }
 
-.top-banner .top-banner-inner.elsner-services-img {
+/* .top-banner .top-banner-inner.elsner-services-img {
 	background: url(../../../themes/elsner2019/images/elsner_service_banner.jpg) no-repeat 0 0
-}
+} */
 
 .leadership_img img {
 	width: 100%;
@@ -7841,7 +7841,7 @@ h4.section-headding.icon-title-h4 {
 
 h4.section-headding.icon-title-h4 span {
 	position: absolute;
-	background-image: url(../../../themes/elsner2019/images/website.svg);
+	/* background-image: url(../../../themes/elsner2019/images/website.svg); */
 	background-repeat: no-repeat;
 	left: 0;
 	top: 50%;
@@ -7919,13 +7919,13 @@ h4.section-headding.icon-title-h4 span {
 	padding-right: 15px
 }
 
-.ecom-section h4.section-headding.icon-title-h4 span {
+/* .ecom-section h4.section-headding.icon-title-h4 span {
 	background-image: url(../../../themes/elsner2019/images/icon_ecommerce.svg)
 }
 
 .mobile-section h4.section-headding.icon-title-h4 span {
 	background-image: url(../../../themes/elsner2019/images/icon_mobileapp.svg)
-}
+} */
 
 .mobile-section .col-block-icon {
 	padding-left: 10px
@@ -7939,21 +7939,21 @@ h4.section-headding.icon-title-h4 span {
 	padding-right: 15px
 }
 
-.ux-d-section h4.section-headding.icon-title-h4 span {
+/* .ux-d-section h4.section-headding.icon-title-h4 span {
 	background-image: url(../../../themes/elsner2019/images/icon_uxdesign.svg)
 }
 
 .d-marketing-section h4.section-headding.icon-title-h4 span {
 	background-image: url(../../../themes/elsner2019/images/icon_digitalmarketing.svg)
-}
+} */
 
 .d-marketing-section .col-block-icon {
 	padding-left: 10px
 }
 
-.customizations-section h4.section-headding.icon-title-h4 span {
+/* .customizations-section h4.section-headding.icon-title-h4 span {
 	background-image: url(../../../themes/elsner2019/images/icon_customizations.svg)
-}
+} */
 
 .customizations-section .col-block-icon {
 	padding-right: 15px
@@ -8610,14 +8610,14 @@ section .all .slider .left {
 	transition: left ease .25s;
 	-webkit-transform: rotate(0deg);
 	transform: rotate(0deg);
-	background: url(../../../themes/elsner2019/images/2V9.svg) top left
+	/* background: url(../../../themes/elsner2019/images/2V9.svg) top left */
 }
 
 section .all .slider .left:hover {
 	visibility: visible;
 	opacity: 1;
 	left: 20px;
-	background: url(../../../themes/elsner2019/images/2UW.svg) top left;
+	/* background: url(../../../themes/elsner2019/images/2UW.svg) top left; */
 	-webkit-transform: rotate(180deg);
 	transform: rotate(180deg)
 }
@@ -8639,7 +8639,7 @@ section .all .slider .right {
 	visibility: visible;
 	opacity: 1;
 	transition: right ease .25s;
-	background: url(../../../themes/elsner2019/images/2V9.svg) top left;
+	/* background: url(../../../themes/elsner2019/images/2V9.svg) top left; */
 	-webkit-transform: rotate(180deg);
 	transform: rotate(180deg)
 }
@@ -8648,7 +8648,7 @@ section .all .slider .right:hover {
 	visibility: visible;
 	opacity: 1;
 	right: 20px;
-	background: url(../../../themes/elsner2019/images/2UW.svg) top left;
+	/* background: url(../../../themes/elsner2019/images/2UW.svg) top left; */
 	-webkit-transform: rotate(0deg);
 	transform: rotate(0deg)
 }
@@ -8719,7 +8719,7 @@ section .all .slider-two .left-t {
 	transition: all ease .25s;
 	width: 40px;
 	height: calc(100% - 5px);
-	background: no-repeat rgba(255, 5, 90, .8) url(../../../themes/elsner2019/images/2Vs.svg) center center;
+	/* background: no-repeat rgba(255, 5, 90, .8) url(../../../themes/elsner2019/images/2Vs.svg) center center; */
 	left: 0
 }
 
@@ -8736,7 +8736,7 @@ section .all .slider-two .left-t.nonl-t {
 }
 
 section .all .slider-two .right-t {
-	background: no-repeat rgba(255, 5, 90, .8) url(../../../themes/elsner2019/images/2Vs.svg) center center;
+	/* background: no-repeat rgba(255, 5, 90, .8) url(../../../themes/elsner2019/images/2Vs.svg) center center; */
 	cursor: pointer;
 	position: absolute;
 	z-index: 1;
@@ -9174,7 +9174,7 @@ textarea:focus {
 	height: 350px
 }
 
-.about_us {
+/* .about_us {
 	background-image: url(../../../themes/elsner2019/images/about_banner.png)
 }
 
@@ -9188,7 +9188,7 @@ textarea:focus {
 
 .writeus_banner {
 	background-image: url(../../../themes/elsner2019/images/writeus_banner.png)
-}
+} */
 
 .banner_content_cover {
 	padding-top: 125px;
@@ -9555,7 +9555,7 @@ h2.section-headding {
 	left: 50%;
 	width: 64px;
 	height: 85px;
-	background: url(../../../themes/elsner2019/images/video_btn.svg);
+	/* background: url(../../../themes/elsner2019/images/video_btn.svg); */
 	background-size: 100%;
 	margin-left: -32px;
 	margin-top: -40px
@@ -9690,7 +9690,7 @@ h2.section-headding {
 .venture_slider .owl-nav button.owl-next:hover,
 .profile-team .owl-nav button.owl-next,
 .profile-team .owl-nav button.owl-next:hover {
-	background: url(../../../themes/elsner2019/images/icon_arrow_next_prpl.svg);
+	/* background: url(../../../themes/elsner2019/images/icon_arrow_next_prpl.svg); */
 	background-position: center;
 	background-size: 100%;
 	top: -110px
@@ -9700,7 +9700,7 @@ h2.section-headding {
 .venture_slider .owl-nav button.owl-prev:hover,
 .profile-team .owl-nav button.owl-prev,
 .profile-team .owl-nav button.owl-prev:hover {
-	background: url(../../../themes/elsner2019/images/icon_arrow_prev_prpl.svg);
+	/* background: url(../../../themes/elsner2019/images/icon_arrow_prev_prpl.svg); */
 	background-position: center;
 	background-size: 100%;
 	bottom: -70px
@@ -10041,7 +10041,7 @@ select:focus {
 	display: inline-block
 }
 
-.icon_www {
+/* .icon_www {
 	background-image: url(../../../themes/elsner2019/images/icon_www.svg)
 }
 
@@ -10055,7 +10055,7 @@ select:focus {
 
 .icon_database {
 	background-image: url(../../../themes/elsner2019/images/icon_database.svg)
-}
+} */
 
 .project_techonology ul {
 	padding: 10px 0
@@ -10335,9 +10335,9 @@ select:focus {
 	margin: 0
 }
 
-.custom-checkbox input[type=checkbox]:checked~.wpcf7-list-item-label:after {
+/* .custom-checkbox input[type=checkbox]:checked~.wpcf7-list-item-label:after {
 	background-image: url(../../../themes/elsner2019/images/custom_checkbox.svg)
-}
+} */
 
 .custom-checkbox input[type=checkbox]:checked~.wpcf7-list-item-label:before {
 	background-color: #0956f4
@@ -10409,7 +10409,7 @@ select:focus {
 	background-position: center
 }
 
-.wwloc_row .wwl_loc_flag.india {
+/* .wwloc_row .wwl_loc_flag.india {
 	background-image: url(../../../themes/elsner2019/images/flag_ind.svg)
 }
 
@@ -10423,11 +10423,11 @@ select:focus {
 
 .wwloc_row .wwl_loc_flag.canada {
 	background-image: url(../../../themes/elsner2019/images/flag_canada.svg)
-}
+} */
 
-.wwloc_row .wwl_loc_flag.switzerland {
+/* .wwloc_row .wwl_loc_flag.switzerland {
 	background-image: url(../../../themes/elsner2019/images/flag_switzerland.svg)
-}
+} */
 
 .wwloc_listing {
 	padding: 20px 0 40px
@@ -11362,7 +11362,7 @@ body .wp-gr .wp-google-review {
 	transition: top .4s
 }
 
-.industries_list ul li a span.BankingFinancial {
+/* .industries_list ul li a span.BankingFinancial {
 	background-image: url(../../../themes/elsner2019/images/icon_banking.svg)
 }
 
@@ -11416,7 +11416,7 @@ body .wp-gr .wp-google-review {
 
 .industries_list ul li a span.community_solution {
 	background-image: url(../../../themes/elsner2019/images/icon_community_solution.svg)
-}
+} */
 
 .industries_list ul li a:hover h6 {
 	color: #ff055a
@@ -11616,7 +11616,7 @@ section#letsstartaproject {
 div.wpcf7 .ajax-loader {
 	height: 24px;
 	width: 24px;
-	background: url(../../../themes/elsner2019/images/elsner_spinner.svg) center center no-repeat #fff;
+	/* background: url(../../../themes/elsner2019/images/elsner_spinner.svg) center center no-repeat #fff; */
 	background-size: 150%;
 	margin-left: 16px;
 	box-shadow: 0 0 5px 0 rgba(9, 86, 244, .29);
@@ -12015,7 +12015,7 @@ section.packages {
 }
 
 .UItechnologies-section li .img {
-	background-image: url(../../../themes/elsner2019/images/Expertise-sprit.png);
+	/* background-image: url(../../../themes/elsner2019/images/Expertise-sprit.png); */
 	background-repeat: no-repeat;
 	transform: translate(0, 0);
 	transition: all 0.4s ease-in-out 0s
@@ -12146,7 +12146,7 @@ section.packages {
 }
 
 .UImobility-experts {
-	background-image: url(../../../themes/elsner2019/images/UIstrength-bg.jpg);
+	/* background-image: url(../../../themes/elsner2019/images/UIstrength-bg.jpg); */
 	background-position: 100% 207%;
 	background-repeat: no-repeat;
 	background-size: 100% auto;
@@ -12226,7 +12226,7 @@ section.packages {
 }
 
 .UItechnologies-section2 ul li span {
-	background-image: url(../../../themes/elsner2019/images/tech-sprit.png);
+	/* background-image: url(../../../themes/elsner2019/images/tech-sprit.png); */
 	background-repeat: no-repeat;
 	bottom: 0;
 	left: 0;
@@ -12876,7 +12876,7 @@ section.technologies-we {
 }
 
 .technologies-section2 ul li span {
-	background-image: url(http://www.elsner.com/wp-content/themes/elsner2016/landing-page/img/tech-store-sprit.png);
+	/* background-image: url(http://www.elsner.com/wp-content/themes/elsner2016/landing-page/img/tech-store-sprit.png); */
 	background-repeat: no-repeat;
 	bottom: 0;
 	left: 0;
@@ -12967,7 +12967,7 @@ section.technologies-we {
 }
 
 .process-section {
-	background-image: url(http://www.elsner.com/wp-content/themes/elsner2016/landing-page/img/proven-banner.png);
+	/* background-image: url(http://www.elsner.com/wp-content/themes/elsner2016/landing-page/img/proven-banner.png); */
 	background-position: top center;
 	background-repeat: no-repeat;
 	display: block;
@@ -13568,7 +13568,7 @@ img.service-img,
 	padding: 0 4px;
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-image: url(https://www.elsner.com/wp-content/uploads/2019/07/work_arrows.svg)
+	/* background-image: url(https://www.elsner.com/wp-content/uploads/2019/07/work_arrows.svg) */
 }
 
 #magento-work-slider button.owl-dot {
@@ -13592,7 +13592,7 @@ img.service-img,
 
 .faq-wrapper {
 	padding: 80px 0 60px 0;
-	background-image: url(https://www.elsner.com/wp-content/uploads/2019/07/bg-img.png);
+	/* background-image: url(https://www.elsner.com/wp-content/uploads/2019/07/bg-img.png); */
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #3f3f3f
@@ -13788,7 +13788,7 @@ div#collapseFour {
 }
 
 .magento-upgrade-list li:nth-child(1n)::before {
-	background-image: url(https://www.elsner.com/wp-content/uploads/2019/07/icon_arrow_orange_left.png);
+	/* background-image: url(https://www.elsner.com/wp-content/uploads/2019/07/icon_arrow_orange_left.png); */
 	height: 20px;
 	width: 20px;
 	content: "";
@@ -13799,7 +13799,7 @@ div#collapseFour {
 }
 
 .magento-upgrade-list li:nth-child(2n)::before {
-	background-image: url(https://www.elsner.com/wp-content/uploads/2019/07/icon_arrow_orange_right.png);
+	/* background-image: url(https://www.elsner.com/wp-content/uploads/2019/07/icon_arrow_orange_right.png); */
 	height: 20px;
 	width: 20px;
 	content: "";
@@ -13949,7 +13949,7 @@ div#collapseFour {
 	content: "";
 	width: 96px;
 	height: 90px;
-	background: url(https://staging.elsner.com/wp-content/uploads/2019/07/quotation-img.png);
+	/* background: url(https://staging.elsner.com/wp-content/uploads/2019/07/quotation-img.png); */
 	top: 45px;
 	left: 0;
 	background-size: cover
@@ -14038,9 +14038,9 @@ div#collapseFour {
 	left: 50%
 }
 
-.about-site .owl-item.active.center .item .quotation:after {
+/* .about-site .owl-item.active.center .item .quotation:after {
 	background: url(https://staging.elsner.com/wp-content/uploads/2019/07/active-quatation.png)
-}
+} */
 
 .about-site .owl-item.active.center .slider-text {
 	margin-top: 50px;
@@ -14058,9 +14058,9 @@ div#collapseFour {
 	bottom: 55px
 }
 
-.about-site .owl-carousel .owl-nav button.owl-prev {
+/* .about-site .owl-carousel .owl-nav button.owl-prev {
 	background-image: url(https://staging.elsner.com/wp-content/uploads/2019/07/left-arrow.png)!important
-}
+} */
 
 .about-site .owl-carousel .owl-nav button.owl-prev span {
 	display: none
@@ -14074,9 +14074,9 @@ div#collapseFour {
 	border-radius: 0
 }
 
-.about-site .owl-carousel .owl-nav button.owl-next {
+/* .about-site .owl-carousel .owl-nav button.owl-next {
 	background-image: url(https://staging.elsner.com/wp-content/uploads/2019/07/right-arrow.png)!important
-}
+} */
 
 .about-site .owl-carousel .owl-nav button.owl-next span {
 	display: none
@@ -14291,7 +14291,7 @@ div#collapseFour {
 	padding: 0;
 	font-size: 0;
 	line-height: 0;
-	background-image: url(../../../themes/elsner2019/images/slider-arrow.png)!important;
+	/* background-image: url(../../../themes/elsner2019/images/slider-arrow.png)!important; */
 	background-repeat: no-repeat;
 	border-radius: 0
 }
@@ -14322,7 +14322,7 @@ div#collapseFour {
 }
 
 .about-site .owl-carousel .owl-nav button.owl-next {
-	background-image: url(../../../themes/elsner2019/images/peopleSlider_arrow.png)!important;
+	/* background-image: url(../../../themes/elsner2019/images/peopleSlider_arrow.png)!important; */
 	transform: rotate(180deg)!important
 }
 
@@ -14348,7 +14348,7 @@ div#collapseFour {
 	padding: 0;
 	font-size: 0;
 	line-height: 0;
-	background-image: url(../../../themes/elsner2019/images/peopleSlider_arrow.png)!important
+	/* background-image: url(../../../themes/elsner2019/images/peopleSlider_arrow.png)!important */
 }
 
 .about-site .owl-carousel .owl-nav button.owl-prev {
@@ -14381,7 +14381,7 @@ div#collapseFour {
 	padding: 0;
 	font-size: 0;
 	line-height: 0;
-	background-image: url(../../../themes/elsner2019/images/magento_slider_left.png)!important;
+	/* background-image: url(../../../themes/elsner2019/images/magento_slider_left.png)!important; */
 	background-repeat: no-repeat;
 	border-radius: 0
 }
@@ -14689,7 +14689,7 @@ div#collapseFour {
 	left: 0;
 	right: 0;
 	bottom: 50px;
-	background: url(../../../themes/elsner2019/images/vital_stats_bg.png) center bottom;
+	/* background: url(../../../themes/elsner2019/images/vital_stats_bg.png) center bottom; */
 	background-repeat: no-repeat;
 	background-size: 100%
 }
@@ -14868,7 +14868,7 @@ div#collapseFour {
 }
 
 .magento-migration-list li:nth-child(1n)::before {
-	background-image: url(https://www.elsner.com/wp-content/uploads/2019/07/icon_arrow_orange_left.png);
+	/* background-image: url(https://www.elsner.com/wp-content/uploads/2019/07/icon_arrow_orange_left.png); */
 	height: 20px;
 	width: 20px;
 	content: "";
@@ -14879,7 +14879,7 @@ div#collapseFour {
 }
 
 .magento-migration-list li:nth-child(2n)::before {
-	background-image: url(https://www.elsner.com/wp-content/uploads/2019/07/icon_arrow_orange_right.png);
+	/* background-image: url(https://www.elsner.com/wp-content/uploads/2019/07/icon_arrow_orange_right.png); */
 	height: 20px;
 	width: 20px;
 	content: "";
@@ -15237,7 +15237,7 @@ body.ppc-website .magento-banner .magento-form .wpcf7 .wpcf7-submit {
 	padding: 0;
 	font-size: 0;
 	line-height: 0;
-	background-image: url(https://www.elsner.com/wp-content/themes/elsner2019/css/../images/magento_slider_left.png)!important;
+	/* background-image: url(https://www.elsner.com/wp-content/themes/elsner2019/css/../images/magento_slider_left.png)!important; */
 	background-repeat: no-repeat;
 	border-radius: 0
 }
@@ -15250,7 +15250,7 @@ body.ppc-website .magento-banner .magento-form .wpcf7 .wpcf7-submit {
 	padding: 0;
 	font-size: 0;
 	line-height: 0;
-	background-image: url(https://www.elsner.com/wp-content/themes/elsner2019/css/../images/magento_slider_left.png)!important;
+	/* background-image: url(https://www.elsner.com/wp-content/themes/elsner2019/css/../images/magento_slider_left.png)!important; */
 	background-repeat: no-repeat;
 	border-radius: 0
 }
@@ -15830,7 +15830,7 @@ section.business.track.section .embed-container p {
 
 .faq-accordian .card-header button[aria-expanded="false"]:before {
 	background: #f0f0f0;
-	content: url(../../../themes/elsner2019/images/plus.png);
+	/* content: url(../../../themes/elsner2019/images/plus.png); */
 	padding: 35px 30px;
 	position: absolute;
 	left: -18px;
@@ -15840,7 +15840,7 @@ section.business.track.section .embed-container p {
 }
 
 .faq-accordian .card-header button[aria-expanded="true"]:before {
-	content: url(../../../themes/elsner2019/images/minus.png);
+	/* content: url(../../../themes/elsner2019/images/minus.png); */
 	background: #f0f0f0;
 	padding: 35px 30px;
 	position: absolute;
@@ -15934,7 +15934,7 @@ section.business.track.section .embed-container p {
 
 .ecomva-benefits-section .maf-content li:before {
 	content: "";
-	background: url(../../../themes/elsner2019/images/right-arrow.svg);
+	/* background: url(../../../themes/elsner2019/images/right-arrow.svg); */
 	font-family: 'Font Awesome 5 Free';
 	background-size: contain;
 	width: 20px;
@@ -16409,7 +16409,7 @@ html {
 	line-height: 1.15;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
-	-ms-overflow-style: scrollbar;
+	-ms-overflow-style: scroll;
 	-webkit-tap-highlight-color: transparent
 }
 
@@ -20255,17 +20255,17 @@ tbody.collapse.show {
 	background-color: #007bff
 }
 
-.custom-checkbox .custom-control-input:checked~.custom-control-label::after {
+/* .custom-checkbox .custom-control-input:checked~.custom-control-label::after {
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E")
-}
+} */
 
 .custom-checkbox .custom-control-input:indeterminate~.custom-control-label::before {
 	background-color: #007bff
 }
 
-.custom-checkbox .custom-control-input:indeterminate~.custom-control-label::after {
+/* .custom-checkbox .custom-control-input:indeterminate~.custom-control-label::after {
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'%3E%3Cpath stroke='%23fff' d='M0 2h4'/%3E%3C/svg%3E")
-}
+} */
 
 .custom-checkbox .custom-control-input:disabled:checked~.custom-control-label::before {
 	background-color: rgba(0, 123, 255, .5)
@@ -20283,9 +20283,9 @@ tbody.collapse.show {
 	background-color: #007bff
 }
 
-.custom-radio .custom-control-input:checked~.custom-control-label::after {
+/* .custom-radio .custom-control-input:checked~.custom-control-label::after {
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='3' fill='%23fff'/%3E%3C/svg%3E")
-}
+} */
 
 .custom-radio .custom-control-input:disabled:checked~.custom-control-label::before {
 	background-color: rgba(0, 123, 255, .5)
@@ -20299,7 +20299,7 @@ tbody.collapse.show {
 	line-height: 1.5;
 	color: #495057;
 	vertical-align: middle;
-	background: #fff url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right .75rem center;
+	/* background: #fff url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right .75rem center; */
 	background-size: 8px 10px;
 	border: 1px solid #ced4da;
 	border-radius: .25rem;
@@ -20940,9 +20940,9 @@ tbody.collapse.show {
 	border-color: rgba(0, 0, 0, .1)
 }
 
-.navbar-light .navbar-toggler-icon {
+/* .navbar-light .navbar-toggler-icon {
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
-}
+} */
 
 .navbar-light .navbar-text {
 	color: rgba(0, 0, 0, .5)
@@ -20991,9 +20991,9 @@ tbody.collapse.show {
 	border-color: rgba(255, 255, 255, .1)
 }
 
-.navbar-dark .navbar-toggler-icon {
+/* .navbar-dark .navbar-toggler-icon {
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
-}
+} */
 
 .navbar-dark .navbar-text {
 	color: rgba(255, 255, 255, .5)
@@ -22617,13 +22617,13 @@ button.close {
 	background-size: 100% 100%
 }
 
-.carousel-control-prev-icon {
+/* .carousel-control-prev-icon {
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E")
 }
 
 .carousel-control-next-icon {
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")
-}
+} */
 
 .carousel-indicators {
 	position: absolute;
@@ -31287,9 +31287,9 @@ a.text-dark:hover {
 	font-style: normal;
 	font-weight: 400;
 	font-display: auto;
-	src: url(../../../themes/elsner2019/fonts/fa-brands-400.eot);
-	src: url("../../../themes/elsner2019/fonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url(../../../themes/elsner2019/fonts/fa-brands-400.woff2) format("woff2"), url(../../../themes/elsner2019/fonts/fa-brands-400.woff) format("woff"), url(../../../themes/elsner2019/fonts/fa-brands-400.ttf) format("truetype"), url("../../../themes/elsner2019/fonts/fa-brands-400.svg#fontawesome") format("svg")
-}
+	}
+	/* src: url(../../../themes/elsner2019/fonts/fa-brands-400.eot);
+	src: url("../../../themes/elsner2019/fonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url(../../../themes/elsner2019/fonts/fa-brands-400.woff2) format("woff2"), url(../../../themes/elsner2019/fonts/fa-brands-400.woff) format("woff"), url(../../../themes/elsner2019/fonts/fa-brands-400.ttf) format("truetype"), url("../../../themes/elsner2019/fonts/fa-brands-400.svg#fontawesome") format("svg") */
 
 .fab {
 	font-family: 'Font Awesome 5 Brands'
@@ -31300,8 +31300,8 @@ a.text-dark:hover {
 	font-style: normal;
 	font-weight: 400;
 	font-display: auto;
-	src: url(../../../themes/elsner2019/fonts/fa-regular-400.eot);
-	src: url("../../../themes/elsner2019/fonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url(../../../themes/elsner2019/fonts/fa-regular-400.woff2) format("woff2"), url(../../../themes/elsner2019/fonts/fa-regular-400.woff) format("woff"), url(../../../themes/elsner2019/fonts/fa-regular-400.ttf) format("truetype"), url("../../../themes/elsner2019/fonts/fa-regular-400.svg#fontawesome") format("svg")
+	/* src: url(../../../themes/elsner2019/fonts/fa-regular-400.eot);
+	src: url("../../../themes/elsner2019/fonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url(../../../themes/elsner2019/fonts/fa-regular-400.woff2) format("woff2"), url(../../../themes/elsner2019/fonts/fa-regular-400.woff) format("woff"), url(../../../themes/elsner2019/fonts/fa-regular-400.ttf) format("truetype"), url("../../../themes/elsner2019/fonts/fa-regular-400.svg#fontawesome") format("svg") */
 }
 
 .far {
@@ -31314,8 +31314,8 @@ a.text-dark:hover {
 	font-style: normal;
 	font-weight: 900;
 	font-display: auto;
-	src: url(../../../themes/elsner2019/fonts/fa-solid-900.eot);
-	src: url("../../../themes/elsner2019/fonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url(../../../themes/elsner2019/fonts/fa-solid-900.woff2) format("woff2"), url(../../../themes/elsner2019/fonts/fa-solid-900.woff) format("woff"), url(../../../themes/elsner2019/fonts/fa-solid-900.ttf) format("truetype"), url("../../../themes/elsner2019/fonts/fa-solid-900.svg#fontawesome") format("svg")
+	/* src: url(../../../themes/elsner2019/fonts/fa-solid-900.eot);
+	src: url("../../../themes/elsner2019/fonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url(../../../themes/elsner2019/fonts/fa-solid-900.woff2) format("woff2"), url(../../../themes/elsner2019/fonts/fa-solid-900.woff) format("woff"), url(../../../themes/elsner2019/fonts/fa-solid-900.ttf) format("truetype"), url("../../../themes/elsner2019/fonts/fa-solid-900.svg#fontawesome") format("svg") */
 }
 
 .fa,
@@ -33458,7 +33458,7 @@ section.banner.servicebanner {
 
 section.banner.servicebanner:before {
 	content: "";
-	background-image: url(/wp-content/themes/elsner2019/images/home-new/icon1.png);
+	/* background-image: url(/wp-content/themes/elsner2019/images/home-new/icon1.png); */
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -34358,7 +34358,7 @@ img.question {
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	background-image: url(/wp-content/themes/elsner2019/images/hire-new/shadow.png);
+	/* background-image: url(/wp-content/themes/elsner2019/images/hire-new/shadow.png); */
 	background-repeat: no-repeat;
 	width: 85px;
 	height: 85px;
@@ -35357,7 +35357,7 @@ div#clients-tab img {
 
 .clients_resti:before {
 	content: "";
-	background-image: url(/wp-content/themes/elsner2019/images/home-new/testimon.png);
+	/* background-image: url(/wp-content/themes/elsner2019/images/home-new/testimon.png); */
 	position: absolute;
 	height: 50px;
 	width: 50px;
@@ -35577,7 +35577,7 @@ a.left.carousel-control:hover span {
 
 .life_gallary .event-text {
 	background: transparent;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .1)), to(rgba(0, 0, 0, .9)));
+	background-image:webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .1)), to(rgba(0, 0, 0, .9)));
 	background-image: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .9));
 	padding: 20px 20px;
 	display: -webkit-box;
@@ -35630,13 +35630,13 @@ a.left.carousel-control:hover span {
 	max-height: 280px
 }
 
-section .all .slider-two .right-t {
+/* section .all .slider-two .right-t {
 	background: no-repeat rgba(56, 157, 219, .7) url(../../../themes/elsner2019/images/2Vs.svg) center center
 }
 
 section .all .slider-two .left-t {
 	background: no-repeat rgba(56, 157, 219, .7) url(../../../themes/elsner2019/images/2Vs.svg) center center
-}
+} */
 
 section .all .slider-two .item.active {
 	border: solid 3px #389ddb;
@@ -35646,7 +35646,7 @@ section .all .slider-two .item.active {
 
 ul.manage_achieve li:before {
 	content: '';
-	background-image: url(/wp-content/uploads/2020/07/check.png);
+	/* background-image: url(/wp-content/uploads/2020/07/check.png); */
 	height: 15px;
 	width: 15px;
 	position: absolute;
@@ -35816,7 +35816,7 @@ ul.form_quote {
 }
 
 .pretxt ul li:before {
-	background-image: url(/wp-content/uploads/2020/07/check.png);
+	/* background-image: url(/wp-content/uploads/2020/07/check.png); */
 	content: "";
 	position: absolute;
 	width: 15px;
@@ -36112,7 +36112,7 @@ ul.choose-reson-right li p {
 }
 
 section#seowork {
-	background-image: url(/wp-content/themes/elsner2019/images/graph-vectore.png);
+	/* background-image: url(/wp-content/themes/elsner2019/images/graph-vectore.png); */
 	background-position-y: bottom;
 	padding-bottom: 180px;
 	background-size: contain;
@@ -36591,7 +36591,7 @@ section.seo_form {
 	background: #389ddb;
 	padding: 70px 0;
 	margin-top: 70px;
-	background-image: url(/wp-content/themes/elsner2019/images/seoicon.png);
+	/* background-image: url(/wp-content/themes/elsner2019/images/seoicon.png); */
 	background-repeat: no-repeat;
 	background-position: center
 }
@@ -37448,7 +37448,7 @@ section.testimonial-home.work {
 }
 
 .service-txt.qa-service ul li:before {
-	background-image: url(/wp-content/uploads/2020/07/check.png);
+	/* background-image: url(/wp-content/uploads/2020/07/check.png); */
 	content: "";
 	position: absolute;
 	width: 16px;
@@ -37489,7 +37489,7 @@ section.testimonial-home.work {
 .qc-accordion .faq-header button::before {
 	opacity: 1;
 	content: "";
-	background-image: url(/wp-content/themes/elsner2019/images/right-arrow-testing.png);
+	/* background-image: url(/wp-content/themes/elsner2019/images/right-arrow-testing.png); */
 	width: 14px;
 	height: 12px;
 	bottom: 20px;
@@ -41709,9 +41709,9 @@ header#header.sticky.covid-strip .corono-section {
 	.covid-service {
 		padding: 40px 0
 	}
-	.covid-counter {
+	/* .covid-counter {
 		background-image: url(../../../themes/elsner2019/images/covid-mobile-bg.jpg)!important
-	}
+	} */
 	.covid-cta-btn {
 		margin-top: 30px
 	}
@@ -42203,7 +42203,7 @@ div.wpcf7-acceptance-missing {
 	left: 0;
 	width: 40px;
 	height: 480px;
-	background-image: url(../../../plugins/easy-fancybox/images/fancybox.png)
+	/* background-image: url(../../../plugins/easy-fancybox/images/fancybox.png) */
 }
 
 #fancybox-overlay {
@@ -42278,7 +42278,7 @@ div.wpcf7-acceptance-missing {
 	right: -15px;
 	width: 30px;
 	height: 30px;
-	background: transparent url(../../../plugins/easy-fancybox/images/fancybox.png) -40px 0;
+	/* background: transparent url(../../../plugins/easy-fancybox/images/fancybox.png) -40px 0; */
 	cursor: pointer;
 	z-index: 111103;
 	display: none
@@ -42360,7 +42360,7 @@ div.wpcf7-acceptance-missing {
 }
 
 #fancybox-left-ico {
-	background-image: url(../../../plugins/easy-fancybox/images/fancybox.png);
+	/* background-image: url(../../../plugins/easy-fancybox/images/fancybox.png); */
 	background-position: -40px -30px
 }
 
@@ -42370,7 +42370,7 @@ div.wpcf7-acceptance-missing {
 }
 
 #fancybox-right-ico {
-	background-image: url(../../../plugins/easy-fancybox/images/fancybox.png);
+	/* background-image: url(../../../plugins/easy-fancybox/images/fancybox.png); */
 	background-position: -40px -60px
 }
 
@@ -42459,7 +42459,7 @@ div.wpcf7-acceptance-missing {
 
 #fancybox-title-float-left {
 	padding: 0 0 0 15px;
-	background: url(../../../plugins/easy-fancybox/images/fancybox.png) -40px -90px no-repeat
+	/* background: url(../../../plugins/easy-fancybox/images/fancybox.png) -40px -90px no-repeat */
 }
 
 #fancybox-title-float-main {
@@ -42468,12 +42468,12 @@ div.wpcf7-acceptance-missing {
 	font-weight: 600;
 	font-size: 14px;
 	padding: 0 0 3px 0;
-	background: url(../../../plugins/easy-fancybox/images/fancybox-x.png) 0 -40px
+	/* background: url(../../../plugins/easy-fancybox/images/fancybox-x.png) 0 -40px */
 }
 
 #fancybox-title-float-right {
 	padding: 0 0 0 15px;
-	background: url(../../../plugins/easy-fancybox/images/fancybox.png) -55px -90px no-repeat
+	/* background: url(../../../plugins/easy-fancybox/images/fancybox.png) -55px -90px no-repeat */
 }
 
 .fancybox-hidden {
@@ -42603,3 +42603,15 @@ a.addtoany_share img {
 .wpcf7cf_multistep .wpcf7cf_step {
 	display: none
 }
+.blog_filter_row {
+    padding-bottom: 28px;
+}
+h1{
+	color: #151b3f
+}
+.multi-line-truncate {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 8;
+	overflow: hidden;
+  }
