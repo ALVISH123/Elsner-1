@@ -2,12 +2,15 @@ import React from "react"
 import './App.css';
 import Header from "./Component/Header/Header"
 import Footer from "./Component/Footer/Footer"
-import { Switch, Route, withRouter } from "react-router-dom";
+
+import { Switch, Route, withRouter, Redirect } from "react-router-dom";
 import Blog from "./Component/Blog/Blog"
 import FullBlog from "./Component/FullBlog/FullBog"
 import { Affix } from 'antd';
 import Catagory from "./Component/Catagory/Catagory";
 import "../src/Style.css";
+import searchString from "./Component/searchString/searchString"
+
 
 function App(props) {
   return (
@@ -19,7 +22,9 @@ function App(props) {
         <Route path="/blog" exact component={Blog} />
         <Route path={'/blog/:id'} exact component={FullBlog} />
         <Route path={'/catagory/:catagoryid'} exact component ={Catagory} />
+        <Route path={'/search/:searchstring'} exact component={searchString} />
         {/* <Route path="/" component={App} /> */}
+        <Redirect to="/" />
       </Switch>
       <Footer/>
 
